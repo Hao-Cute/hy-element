@@ -13,6 +13,7 @@ import {
 export default defineConfig({
   title: "Hy Element",
   description: "高仿 ElementPlus 打造自己的组件库",
+  base: '/hy-element/',
   // extends: teekConfig,
   vite: {
     resolve: {
