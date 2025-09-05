@@ -32,7 +32,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: '组件', link: '/components/button' },
+      { text: '组件', link: '/components/button', activeMatch: '/components/' },
     ],
 
     sidebar: [

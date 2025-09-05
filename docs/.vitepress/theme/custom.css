@@ -1,12 +1,29 @@
 :root {
-  /* --vp-c-brand: var(--vk-color-primary);
-  --vp-c-brand-1: var(--vk-color-primary-light-3);
-  --vp-c-brand-2: var(--vk-color-primary-light-5);
-  --vp-c-brand-3: var(--vk-color-primary-dark-2); */
-  /* --vp-c-brand-soft: #265F99; */
-
   /* --component-preview-bg: var(--vp-code-block-bg); */
   /* --component-preview-soft: var(--vp-code-block-bg-light); */
+
+  /* --vp-c-brand-1: var(--vp-c-green-1);
+  --vp-c-brand-2: var(--vp-c-green-2);
+  --vp-c-brand-3: var(--vp-c-green-3);
+  --vp-c-brand-soft: var(--vp-c-green-soft); */
+
+  --tk-el-color-primary: #409eff;
+  --tk-el-color-primary-light-3: #3375b9;
+  --tk-el-color-primary-light-5: #2a598a;
+  --tk-el-color-primary-light-9: #18222c;
+  --vp-c-brand-1: var(--tk-el-color-primary);
+  --vp-c-brand-2: var(--tk-el-color-primary-light-3);
+  --vp-c-brand-3: var(--tk-el-color-primary-light-5);
+  --vp-c-brand-soft: var(--tk-el-color-primary-light-9);
+
+  /* --tk-el-color-success: #67c23a;
+  --tk-el-color-success-light-3: #4e8e2f;
+  --tk-el-color-success-light-5: #3e6b27;
+  --tk-el-color-success-light-9: #1c2518;
+  --vp-c-brand-1: var(--tk-el-color-success);
+  --vp-c-brand-2: var(--tk-el-color-success-light-3);
+  --vp-c-brand-3: var(--tk-el-color-success-light-5);
+  --vp-c-brand-soft: var(--tk-el-color-success-light-9); */
 }
 
 body {
