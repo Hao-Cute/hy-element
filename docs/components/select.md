@@ -42,15 +42,30 @@ description: Select 组件的文档
 
 <preview path="../demo/Select/Remote.vue" title="筛选选项" description="Select 筛选选项"></preview>
 
-## Props
+## 属性
+| Name            | Description                    | Type                                      | Default |
+| --------------- | ------------------------------ | ----------------------------------------- | ------- |
+| model-value / v-model | 绑定值                         | 'string \| number'                        |         |
+| options         | 下拉框选项                     | SelectOption[]                            | []      |
+| disabled        | 是否禁用                       | boolean                                   | false   |
+| placeholder     | 输入框占位文本                 | string                                    | ""      |
+| clearable       | 是否显示清除按钮               | boolean                                   | false   |
+| filterable      | 自定义筛选方法                 | boolean                                   | false   |
+| filter-method   | 自定义筛选方法                 | (value: string \| number) => SelectOption[] |         |
+| remote          | 其中的选项是否从服务器远程加载 | boolean                                   | false   |
+| remote-method   | 自定义远程筛选方法             | (value: string \| number) => Promise<SelectOption[]> |         |
 
-| 键名           | 描述                         | 类型                           | 默认值      |
-| -------------- | ---------------------------- | ------------------------------ | ----------- |
-| modelValue        | v-model                     | string                   | -           |
-| duration       | message 持续时间             | number                         | 4000 (毫秒) |
-| showClose      | 是否有 close Icon 可手动关闭 | boolean                        | false       |
-| type           | 默认提供四种类型支持         | success、info、warning、danger | info        |
-| transitionName | 过渡效果                     | string                         | fade        |
-| onDestory      | 组件销毁方法                 | Function                       | -           |
+## SelectOption 属性
+| Name      | Description        | Type                 | Default |
+| --------- | ------------------ | -------------------- | ------- |
+| label     | 选项显示的文字     | 'string'             |         |
+| value     | 选项的值           | string \| number     |         |
+| disabled  | 是否禁用           | boolean              | false   |
 
+## 事件
+| Name            | Description                                | Type                          |
+| --------------- | ------------------------------------------ | ----------------------------- |
+| change          | 当选择器的输入框失去焦点时触发             | (e: SelectOption) => void     |
+| visible-change  | 当下拉框显示或者隐藏时候触发               | (e: boolean) => void          |
+| clear           | 在点击由 clearable 属性生成的清空按钮时触发 | () => void                    |
 
