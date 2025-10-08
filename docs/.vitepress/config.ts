@@ -37,13 +37,17 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Basic',
+        text: 'Hy Element 组件列表',
         items: [
-          { text: 'Button', link: '/components/button' },
-          { text: 'Input', link: '/components/input' },
-          { text: 'Switch', link: '/components/switch' },
-          { text: 'Select', link: '/components/select' },
-          { text: 'Form', link: '/components/form' },
+          { text: 'Button 按钮', link: '/components/button' },
+          { text: 'Collapse 折叠面板', link: '/components/collapse' },
+          { text: 'Tooltip 文字提示', link: '/components/tooltip' },
+          { text: 'Dropdown 下拉菜单', link: '/components/dropdown' },
+          { text: 'Message 消息提示', link: '/components/message' },
+          { text: 'Input 输入框', link: '/components/input' },
+          { text: 'Switch 开关', link: '/components/switch' },
+          { text: 'Select 选择器', link: '/components/select' },
+          { text: 'Form 表单', link: '/components/form' },
         ]
       }
     ],

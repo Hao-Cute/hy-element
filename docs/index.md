@@ -15,11 +15,11 @@ hero:
       link: /components/button
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Vite构建
+    details: 服务器即时启动，闪电般的热更新，还可以使用基于 Vite 生态的插件
+  - title: Vue3 + TypeScript
+    details: 学习 Element Plus 组件源码, 使用 TS + Vue3 打造自己的组件库
+  - title: Vitest - 单元测试
+    details: Vite 全家桶支持, 添加测试代码为开发保驾护航
 ---
 
