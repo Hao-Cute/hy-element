@@ -1,5 +1,5 @@
 ---
-title: Tooltip | Hy Element
+title: Tooltip
 description: Tooltip 组件的文档
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Select | Hy Element
+title: Select
 description: Select 组件的文档
 ---
 # 选择器

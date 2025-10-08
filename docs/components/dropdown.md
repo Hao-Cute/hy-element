@@ -1,5 +1,5 @@
 ---
-title: Dropdown | Hy Element
+title: Dropdown
 description: Dropdown 组件的文档
 ---
 

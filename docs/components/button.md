@@ -1,5 +1,5 @@
 ---
-title: Button | Hy Element
+title: Button
 description: Button 组件的文档
 ---
 

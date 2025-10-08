@@ -1,5 +1,5 @@
 ---
-title: Collapse | Hy Element
+title: Collapse
 description: Collapse 组件的文档
 ---
 

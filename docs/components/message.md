@@ -1,5 +1,5 @@
 ---
-title: Message | Hy Element
+title: Message
 description: Message 组件的文档
 ---
 

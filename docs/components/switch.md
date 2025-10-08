@@ -1,5 +1,5 @@
 ---
-title: Switch | Hy Element
+title: Switch
 description: Switch 组件的文档
 ---
 

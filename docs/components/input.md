@@ -1,5 +1,5 @@
 ---
-title: Input | Hy Element
+title: Input
 description: Input 组件的文档
 ---
 
